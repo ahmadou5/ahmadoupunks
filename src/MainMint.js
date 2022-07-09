@@ -52,7 +52,7 @@ const MaintMint = ({ accounts, setAccounts }) => {
             fontFamily="VT323"
             textShadow="0 2px 2px #000000"
           >
-            This website is for demo purposes only. so mint Asap
+            This website is for demo purposes only. 
           </Text>
          
         </div>
