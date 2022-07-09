@@ -52,16 +52,9 @@ const MaintMint = ({ accounts, setAccounts }) => {
             fontFamily="VT323"
             textShadow="0 2px 2px #000000"
           >
-            This website is for demo purposes only.
+            This website is for demo purposes only. so mint Asap
           </Text>
-          <Text
-            fontSize="30px"
-            letterSpacing="-5.5%"
-            fontFamily="VT323"
-            textShadow="0 2px 2px #000000"
-          >
-            so mint as much as you cant.
-          </Text>
+         
         </div>
 
         {isConnected ? (
