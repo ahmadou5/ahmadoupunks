@@ -3,7 +3,7 @@ import { ethers, BigNumber } from "ethers";
 import { Box, Button, Flex, Input, Text } from "@chakra-ui/react";
 import roboPunksNFT from "./RoboPunksNFT.json";
 
-const roboPunksNFTAddress = "0xBA7d0E7d36b733ff8113980a263cde09E3129Be3";
+const roboPunksNFTAddress = "0x9fDbd9b8FF5DfA18Ceb5eCd642E7B24fc198a634";
 
 const MaintMint = ({ accounts, setAccounts }) => {
   const [mintAmount, setMintAmount] = useState(1);
@@ -15,7 +15,7 @@ const MaintMint = ({ accounts, setAccounts }) => {
       const signer = provider.getSigner();
       const contract = new ethers.Contract(
         roboPunksNFTAddress,
-        roboPunksNFT.abi,
+        roboPunksNFT,
         signer
       );
       try {
@@ -44,7 +44,7 @@ const MaintMint = ({ accounts, setAccounts }) => {
       <Box width="520px">
         <div>
           <Text fontSize="48px" textShadow="0 5px #000000">
-            RoboPunksNFT
+            AhmadouPunksNFT
           </Text>
           <Text
             fontSize="30px"
@@ -53,6 +53,14 @@ const MaintMint = ({ accounts, setAccounts }) => {
             textShadow="0 2px 2px #000000"
           >
             This website is for demo purposes only.
+          </Text>
+          <Text
+            fontSize="30px"
+            letterSpacing="-5.5%"
+            fontFamily="VT323"
+            textShadow="0 2px 2px #000000"
+          >
+            so mint as much as you cant.
           </Text>
         </div>
 
