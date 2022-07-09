@@ -40,7 +40,7 @@ const MaintMint = ({ accounts, setAccounts }) => {
   };
 
   return (
-    <Flex justify="center" align="center" height="100vh" paddingBottom="150px">
+    <Flex justify="center" align="center" height="097vh" paddingBottom="150px">
       <Box width="520px">
         <div>
           <Text fontSize="48px" textShadow="0 5px #000000">
